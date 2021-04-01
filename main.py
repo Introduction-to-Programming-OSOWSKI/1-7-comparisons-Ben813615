@@ -2,7 +2,7 @@ def greaterThan(a , b):
     if a > b:
         return True
     else:
-         False 
+        return False
 
 def lessThan(a, b):
     if a < b:
@@ -27,3 +27,5 @@ def lessOrEqual(a, b):
         return True
     else:
         return False
+
+print(greaterThan(5,6))
