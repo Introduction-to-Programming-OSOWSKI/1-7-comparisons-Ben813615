@@ -17,9 +17,13 @@ def equalTo(a, b):
         return False
 
 def greaterOrEqual(a, b):
-    if a > or == b:
+    if a >= b:
         return True
     else:
         return False
 
-print(greaterOrEqual(8, 8))
+def lessOrEqual(a, b):
+    if a <= b:
+        return True
+    else:
+        return False
